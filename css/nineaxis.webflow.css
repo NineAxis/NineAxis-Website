@@ -511,6 +511,11 @@ h3 {
 }
 
 .header {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -548,6 +553,10 @@ h3 {
 }
 
 .main-content-wrapper.center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -820,6 +829,7 @@ h3 {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto auto auto auto;
   grid-template-rows: auto auto auto auto;
+  cursor: pointer;
 }
 
 .div-block-2 {
@@ -990,6 +1000,8 @@ h3 {
 }
 
 .email-button-container.bottom {
+  position: relative;
+  z-index: 99;
   width: auto;
   height: auto;
   -webkit-box-flex: 0;
@@ -1067,6 +1079,9 @@ h3 {
   .reasons-grid {
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
+  }
+  .cross {
+    cursor: pointer;
   }
 }
 
